@@ -12,22 +12,26 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Nome"/>
+            android:hint="Nome"
+            android:id="@+id/formulario_nome"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Endereço"/>
+            android:hint="Endereço"
+            android:id="@+id/formulario_endereco"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Telefone"/>
+            android:hint="Telefone"
+            android:id="@+id/formulario_telefone"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="site"/>
+            android:hint="site"
+            android:id="@+id/formulario_site"/>
 
         <RatingBar
             style="@android:style/Widget.DeviceDefault.Light.RatingBar"
@@ -35,12 +39,14 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:max="10"
-            android:numStars="5"/>
+            android:numStars="5"
+            android:id="@+id/formulario_nota"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Salvar"/>
+            android:text="Salvar"
+            android:id="@+id/formulario_salvar"/>
 
     </LinearLayout>
 
